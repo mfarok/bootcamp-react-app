@@ -37,4 +37,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build http://farooqreact1.surge.sh/ --token ${{ secrets.pw}}
+      run: surge ./build http://farooqreact1.surge.sh/ --token ${{ secrets.pw }}
